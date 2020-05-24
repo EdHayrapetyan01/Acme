@@ -1,0 +1,114 @@
+
+
+.text-wrapper{
+position: absolute;
+bottom: 20px;
+width: 100%;
+text-align: center;
+color: #757575;
+font-size: 15px;
+}
+
+.main-wrapper{
+display: table;
+}
+.app-wrapper{
+  width: 100vw;
+  height: 20vh;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.app{
+display: inline-block;
+position: relative;
+width: 400px;
+}
+      
+.app-body{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+  
+.app-header{
+  background-color: white;
+  padding: 15px 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+.app-row{
+  padding: 33px;
+  background-color: white;
+  border-top: 1px solid #EEE;
+  cursor: pointer;
+}
+  .row-nr{
+    float: left;
+    position: absolute;
+    font-size: 10px;
+    font-weight: 500;
+    top: 12px;
+  }
+  .row-label{
+    float: left;
+    position: relative;
+  }
+  .row-amount{
+    position: relative;
+    margin-right: 20px;
+    float: right
+  }
+   
+  button:disabled {
+    text-transform: uppercase;
+    text-align: center;
+    border: solid 1px #dfdfdf;
+    background-color: #ebebeb !important;
+    color: #aaaaaa !important;
+    font-size: 11px;
+    padding: 6px 10px;
+}
+  .row-icon{
+    float: right;
+    position: relative;
+    font-size: 22px;
+    color: black;
+  } 
+  .accountCol{
+    border-right: 1px solid #f0f0f0;
+    padding: 55px 14px 47px 71px;
+  }
+  .savingAccount{
+    width: 478px;
+    box-shadow: 1px 2px 8px 1px #cbcbcb;
+    padding: 16px;
+    margin-bottom: 50px;
+
+  }
+  .savingAccount>h2{
+    font-size: 24px;
+    text-align: center;
+    font-family: initial;
+  }
+  .errorMsg{
+    color: red;
+  }
+  .list-group-item{
+    color: gray;
+    text-align: center;
+    width: 465px;
+  }
+  .input-group{
+    width: 465px;
+  }
+  .alert-success{
+    width: 465px;
+  }
+  .alert-danger {
+    width: 465px;
+  }
+  .list-group-item>span{
+    color: #e87373!important;
+  }

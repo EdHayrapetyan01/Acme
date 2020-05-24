@@ -1,0 +1,162 @@
+*{
+  margin:0;
+  padding:0;
+}
+.bg-dark{
+  background-color: #00c2b8!important;
+  z-index: 111!important;
+  height: 89px; 
+}
+.navbar-nav{
+  float: right;
+  padding-right: 78px;
+  font-size: 17px;
+}
+ 
+.navbar-brand{
+  color: rgb(255, 255, 255);
+  font-family: unset;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+.navbar-brand:hover{
+  transition: 0.3s;
+  color: rgb(161, 67, 87)
+}
+.nav-link:hover{
+ transition: 0.3s;
+ color: rgb(255, 255, 255)
+}
+.nav-link{
+   color: aliceblue;
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   z-index: 111;
+   margin-left: 31px;
+}
+img{
+  width: 100%;
+}
+.container{
+  max-width: 100%;
+    padding: 0;
+}
+.col{
+  padding-left: 41px;
+}
+
+
+.col> h1{
+  color: #29293a;
+  font-size: 55px;
+  letter-spacing: -2px;
+  line-height: 48px;
+  margin-top: 64px;
+  margin-bottom: 34px;
+}
+.col>p{
+  color: gray;
+}
+ 
+.btn-secondary{
+  width: 145px;
+}
+
+.cardsCol{
+      border: 1px solid;
+      padding: 27px;
+      margin-left: 117px;
+      max-width: 500px;
+      height: 159px;
+      line-height: 18px;
+      margin-top: 32px;
+      border: unset;
+    box-shadow: 2px 5px 11px 7px #e8e8e8;
+    cursor: pointer;
+
+}
+.row{
+  margin-top: -22px;
+  width: 100%;
+}
+
+.logo{
+  width: 117px;
+  margin-left: 38px;
+}
+.notFound{
+  width: 38%;
+  margin: 0 auto;
+  text-align: center;
+}
+.dropdown-toggle{
+  color: #fff;
+  background-color: unset;
+  border: unset;
+
+}
+.dropdown-toggle:hover{
+  color: #fff;
+  background-color: unset;
+  border: unset;
+
+}
+.show>.btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: unset!important;
+  border-color: #4e555b;
+}
+.show>.btn-secondary.dropdown-toggle:active{
+  color: #fff;
+  background-color: unset!important;
+  border-color: #4e555b;
+}
+.dropdown-menu{
+  background: #4bc3b8;
+  border: unset;
+}
+.dropdown-menu>.dropdown-item>a:hover{
+  color: #4bc3b8;
+  transition: 0.3s;
+}
+
+/* @@media queries */
+
+@media (max-width: 600px) {
+  .bg-dark{
+    background-color: #00c2b8!important;
+    z-index: 111!important;
+    height: 46px;
+    
+  }
+  .logo {
+    width: 86px;
+    margin-left: 8px;
+    margin-top: -20px;
+  }
+  .col> h1 {
+    color: #29293a;
+    font-size: 22px;
+    letter-spacing: -2px;
+    line-height: 27px;
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+body{
+  width: 100%;
+}
+.list-group-item{
+  width: 292px;
+  font-size: 14px;
+}
+.input-group{
+  width: 292px;
+}
+.accountCol {
+  border: unset;
+  padding: 31px 9px 9px 52px;
+}
+.alert-success, .alert-danger{
+  width: 292px;
+}
+}
